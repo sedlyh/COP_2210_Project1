@@ -8,8 +8,8 @@ public class Controller {
     public static void main(String[] args) {
 //enter you info here
         System.out.println("=====================================================");
-        System.out.println("PROGRAMMER: " + "SEDLY J HERNANDEZ BAEZ");
-        System.out.println("PANTHER ID: " + "6505820");
+        System.out.println("PROGRAMMER: " + "");
+        System.out.println("PANTHER ID: " + "");
         System.out.println();
         System.out.println("CLASS: \t\t COP2210 ");
         System.out.println("SECTION: \t " + "U01");
