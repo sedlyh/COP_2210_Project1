@@ -190,13 +190,17 @@ public class Register {
 
         if (changeDollars>0){
             numberOfOneDollarBills -= changeDollars;
-        }else if (changeQuarters>0){
+        }
+        if (changeQuarters>0){
             numberOfQuarters -= changeQuarters;
-        }else if (changeDimes>0){
+        }
+        if (changeDimes>0){
             numberOfDimes -= changeDimes;
-        } else if (changeNickels > 0) {
+        }
+        if (changeNickels > 0) {
             numberOfNickels -= changeNickels;
-        }else if (changePennies>0){
+        }
+        if (changePennies>0){
             numberOfPennies -= changePennies;
         }
 

@@ -73,7 +73,7 @@ public class Controller {
     // create booleans
 
 
-        System.out.println("");
+
 
         for(int i = 0; i < 8; i++ ){
             boolean meat = true;
@@ -84,104 +84,104 @@ public class Controller {
             if(i == 0){
                 Sandwich sandwich1 = new Sandwich(meat, cheese, veggies);
 
-                sandwich.displayInfo();
+                sandwich1.displayInfo();
 
                 Payment sandwichPayment2 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment2.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment2);
+                register.buySandwich(sandwich1, sandwichPayment2);
 
                 register.cashInfo("Manager");
 
             } else if(i == 1){
                 Sandwich sandwich2 = new Sandwich(meat, cheese, !veggies);
 
-                sandwich.displayInfo();
+                sandwich2.displayInfo();
 
                 Payment sandwichPayment3 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment3.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment3);
+                register.buySandwich(sandwich2, sandwichPayment3);
 
                 register.cashInfo("Manager");
 
             } else if (i == 2){
                 Sandwich sandwich3 = new Sandwich(meat, !cheese, veggies);
 
-                sandwich.displayInfo();
+                sandwich3.displayInfo();
 
                 Payment sandwichPayment4 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment4.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment4);
+                register.buySandwich(sandwich3, sandwichPayment4);
 
                 register.cashInfo("Manager");
 
             } else if (i == 3){
                 Sandwich sandwich4 = new Sandwich(meat, !cheese, !veggies);
 
-                sandwich.displayInfo();
+                sandwich4.displayInfo();
 
                 Payment sandwichPayment5 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment5.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment5);
+                register.buySandwich(sandwich4, sandwichPayment5);
 
                 register.cashInfo("Manager");
 
             } else if (i == 4){
                 Sandwich sandwich5 = new Sandwich(!meat, cheese, veggies);
 
-                sandwich.displayInfo();
+                sandwich5.displayInfo();
 
                 Payment sandwichPayment6 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment6.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment6);
+                register.buySandwich(sandwich5, sandwichPayment6);
 
                 register.cashInfo("Manager");
 
             } else if (i == 5 ){
                 Sandwich sandwich6 = new Sandwich(!meat, cheese, !veggies);
 
-                sandwich.displayInfo();
+                sandwich6.displayInfo();
 
                 Payment sandwichPayment7 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment7.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment7);
+                register.buySandwich(sandwich6, sandwichPayment7);
 
                 register.cashInfo("Manager");
 
             } else if (i == 6){
                 Sandwich sandwich7 = new Sandwich(!meat, !cheese, veggies);
 
-                sandwich.displayInfo();
+                sandwich7.displayInfo();
 
                 Payment sandwichPayment8 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment8.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment8);
+                register.buySandwich(sandwich7, sandwichPayment8);
 
                 register.cashInfo("Manager");
 
             } else if (i == 7){
                 Sandwich sandwich8 = new Sandwich(!meat, !cheese, !veggies);
 
-                sandwich.displayInfo();
+                sandwich8.displayInfo();
 
                 Payment sandwichPayment9 = new Payment(10, 0, 0, 0, 0);
 
-                sandwichPayment1.displayInfo();
+                sandwichPayment9.displayInfo();
 
-                register.buySandwich(sandwich, sandwichPayment9);
+                register.buySandwich(sandwich8, sandwichPayment9);
 
                 register.cashInfo("Manager");
             System.out.println("=====================================================================");
