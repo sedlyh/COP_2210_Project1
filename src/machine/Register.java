@@ -65,6 +65,10 @@ public class Register {
             System.out.printf("Nickels:\t\t\t\t %-15d\n", numberOfNickels);
             System.out.printf("Pennies:\t\t\t\t %-15d\n", numberOfPennies);
             System.out.println("");
+            System.out.println("=====================================================================");
+            System.out.println("=====================================================================");
+            System.out.println("");
+
         } else{
             System.out.println("==========================================");
             System.out.println("Register Cash Info");

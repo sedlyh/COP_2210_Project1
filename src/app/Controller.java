@@ -184,9 +184,8 @@ public class Controller {
                 register.buySandwich(sandwich8, sandwichPayment9);
 
                 register.cashInfo("Manager");
-            System.out.println("=====================================================================");
-            System.out.println("=====================================================================");}
-        }
 
+            }
+        }
     }
 }
